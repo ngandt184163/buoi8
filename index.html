@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="" method="get" enctype="multipart/form-data">
+      <label for="a">Email: </label><br />
+      <input
+        type="text"
+        name="hoten"
+        id="a"
+        placeholder="Nguyen Van Teo"
+        tabindex="1"
+      />
+
+      <br />
+
+      <label for="matkhau">mat khau: </label><br />
+      <input type="password" name="pass" id="matkhau" placeholder="1234@" />
+
+      <br />
+
+      <label>tai anh len: </label>
+      <input type="file" name="anh" />
+      <br />
+      <label for="">so thich</label>
+      <input type="checkbox" name="sothich" value="docsach" /> doc sach
+      <input type="checkbox" name="sothich" value="xemphim" /> xem phim
+      <input type="checkbox" name="sothich" value="nghenhac" /> nghe nhac
+      <input type="checkbox" name="sothich" value="hocbai" /> hoc bai
+
+      <br />
+
+      <label for="">con cho co may chan?</label>
+      <input type="radio" name="sochan" value="1" tabindex="2" /> 1 chan
+      <input type="radio" name="sochan" value="2" /> 2 chan
+      <input type="radio" name="sochan" value="3" /> 3 chan
+      <input type="radio" name="sochan" value="4" /> 4 chan
+
+      <br />
+
+      <input type="hidden" value="errrrrt567" />
+
+      <br />
+
+      <textarea name="motasanpham" id="" cols="30" rows="5"></textarea>
+
+      <br />
+      <label for="">Thanh pho</label>
+      <select name="city">
+        <option value="1">Ha noi</option>
+        <option value="2">HCM</option>
+        <option value="3">Da nang</option>
+      </select>
+      <br />
+      <input class="btn" type="button" value="button" />
+      <br />
+      <input type="submit" value="gui du lieu" />
+      <br />
+      <input type="date" />
+      <br />
+      <input type="number" />
+      <br />
+      <input type="email" />
+    </form>
+  </body>
+</html>
